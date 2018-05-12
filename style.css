@@ -1,0 +1,44 @@
+/* This is a CSS comment.*/
+
+
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.
+*/
+* /*{
+   outline: 1px solid red !important;
+}
+*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+.app {
+    display: flex;
+}
+.image{
+	max-width: 460px;
+}
+.description {
+	color:#7c8b88;
+	margin-left: 40px;
+}
+.title{
+	background-color: #33bebe;
+	height: 60px;
+	margin-bottom: 40px;
+}
+body{
+	height: 50%;
+	width: 60%;
+	margin: 150px;
+}
+h1{
+	font-family: sans-serif;
+	font-weight: normal;
+	text-align: left;
+	color: white;
+	padding: 20px;
+}
